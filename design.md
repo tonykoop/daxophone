@@ -2,23 +2,24 @@
 ---
 instrument: Daxophone
 family: idiophone_friction_wood
-packet_mode: v5_l1_concept
+packet_mode: v5_l2_planning
 authority: concept_only
-readiness: L1 concept packet
+readiness: L2 planning packet
 ---
 
 # Daxophone Design Study
 
 ## Design Thesis
 
-This V5 L1 packet frames a daxophone as an expressive friction idiophone rather
+This V5 L2 packet frames a daxophone as an expressive friction idiophone rather
 than a conventional bowed string instrument. The sound source is a wooden tongue
 whose outline, grain, clamp condition, and local contact from the dax block all
 change the speaking behavior. The contact pickup is part of the instrument
 system because it captures details that may be quiet acoustically.
 
-The first packet stays non-dimensional. It names the subsystems and evidence
-gates needed before any fabrication or tuning claim can be made.
+The packet stays non-dimensional. It names the subsystems, shop interfaces,
+workpiece categories, and evidence gates needed before any fabrication or
+tuning claim can be made.
 
 ## Mechanism
 
@@ -31,6 +32,27 @@ material, contour, grip, and finish matter.
 The clamp must hold the tongue without crushing fibers or creating unpredictable
 buzz. The contact pickup must sense the tongue or clamp system without becoming
 a structural brace that changes the response in an undocumented way.
+
+## L2 Subsystem Plan
+
+| subsystem | L2 responsibility | authority | next evidence |
+| --- | --- | --- | --- |
+| tongue blank | identify a real wood coupon and track grain/edge preparation | pending_measurement | measured blank record and photos |
+| clamp block | hold repeatably without buzz, slip, or fiber damage | pending_measurement | clamp test log |
+| dax block | provide expressive contact without undocumented fret geometry | pending_measurement | contact-response notes |
+| bow interface | separate bow/rosin behavior from tongue design changes | pending_measurement | bowing test log |
+| contact pickup | capture vibration without becoming a structural brace | pending_measurement | reversible pickup mount test |
+| output hardware | route signal and strain relief without acoustic shortcuts | pending_measurement | wiring and noise checklist |
+| safety finish | remove splinter/sharp-edge risk without muting response | pending_measurement | edge and handling review |
+
+## L2 Workpiece Plan
+
+The first build artifact should be a coupon bench setup, not a finished
+performance instrument. `cut-list.csv` names workpiece categories only: tongue
+blank coupon, clamp jaw coupon, dax-face coupon, pickup-mount coupon, base
+support, edge-finish coupon, cable strain-relief coupon, and test-log template.
+None of those entries is a released size, tongue outline, fret/contact map,
+pickup coordinate, or tuning prescription.
 
 ## Parametric Intent
 
@@ -66,7 +88,7 @@ dax contact curves, pickup placement, or playable pitch maps.
 
 ## Measurement Gates
 
-Promotion beyond L1 requires:
+Promotion beyond L2 requires:
 
 - A real tongue coupon or blank measured and photographed before shaping.
 - A clamp test that records stability, buzz, and damage risk.
@@ -75,6 +97,8 @@ Promotion beyond L1 requires:
 - A pickup mounting test that records noise, handling sensitivity, and
   reversibility.
 - A safety review for sharp edges, splinters, clamp force, and bowing posture.
+- A traceable authority register entry for any future CAD, DXF, SVG drawing, or
+  audio artifact before it can be used outside concept review.
 
 ## Risks
 
