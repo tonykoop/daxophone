@@ -1,0 +1,9 @@
+item_id,system,item,authority,status,notes
+DAX-TONGUE,tongue,wooden tongue blank,pending_measurement,estimate_class_only,"Species, grain, outline, thickness profile, and finish are not specified."
+DAX-CLAMP,clamp,clamping block and pressure interface,pending_measurement,estimate_class_only,"Clamp geometry and pressure must be tested for sustain, buzz, and fiber damage."
+DAX-DAXBLOCK,player_interface,hand-held dax block,pending_measurement,estimate_class_only,"Face material, contour, grip, and contact response are pending prototype tests."
+DAX-BOW,exciter,bow and rosin system,pending_measurement,estimate_class_only,"Bowing setup is a test dependency, not a tuned design input."
+DAX-PICKUP,electronics,contact pickup,pending_measurement,estimate_class_only,"Pickup type, mount, wiring, and preamp needs are not specified."
+DAX-JACK,electronics,output jack and strain relief,pending_measurement,estimate_class_only,"Connector placement and shielding require a reviewed layout."
+DAX-BASE,structure,bench or mounting base,pending_measurement,estimate_class_only,"Support mass, isolation, and ergonomics are not specified."
+DAX-FINISH,safety,edge finish and player-contact treatment,pending_measurement,estimate_class_only,"Must avoid splinters and unsafe bowed edges without muting response."
