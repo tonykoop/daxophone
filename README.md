@@ -2,9 +2,9 @@
 
 # Daxophone
 
-Status: L1 concept packet
+Status: L2 planning packet; not fabrication-ready
 
-Private V5 concept packet for a daxophone: a bowed wooden tongue clamped in a
+Private V5 planning packet for a daxophone: a bowed wooden tongue clamped in a
 block, excited along its edge, shaped and stopped with a hand-held dax block,
 and captured with a contact pickup.
 
@@ -29,7 +29,9 @@ behavior are all `pending_measurement`.
 ## Packet Map
 
 - `design.md` - mechanism concept, parametric intent, and measurement gates.
-- `bom.csv` - estimated parts classes only.
+- `bom.csv` - subsystem-level parts and test-support classes only.
+- `cut-list.csv` - non-dimensional tongue, clamp, dax, pickup, and safety
+  workpiece categories; all sizes and counts remain pending measurement.
 - `visual-output-register.csv` - V5 authority register; every row is
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD and provenance stub; no MCP/CAD session run.
@@ -37,7 +39,9 @@ behavior are all `pending_measurement`.
 
 ## Readiness
 
-L1 means the repo captures intent, risks, and required evidence. Promotion to L2
-requires measured tongue blanks, a reviewed clamp and dax interface, a pickup
-test plan, and a complete authority register for any future visual or CAD
-outputs.
+L2 means the repo now names the shop subsystems, workpiece categories,
+measurement logs, and authority boundaries needed for a careful prototype
+review. It still does not release dimensions, profiles, fret maps, pickup
+placement, or tuning targets. Promotion beyond L2 requires measured tongue
+blanks, a reviewed clamp and dax interface, pickup tests, and a complete
+authority register for any future visual or CAD outputs.
