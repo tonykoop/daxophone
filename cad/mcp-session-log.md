@@ -17,6 +17,7 @@ V5 provenance stub for the daxophone L2 planning packet.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | none-2026-05-30 | none | Round 7 handoff and general mechanical concept stated in prompt. | `README.md`, `design.md`, `bom.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l1_concept_packet | concept_only | self_checked | No MCP, CAD, image, audio, Wolfram, electronics simulation, or CAM tool generated artifacts. |
 | codex-r7-l2-uplift-2026-05-30 | Codex local edit | Existing repo packet plus failed QMD Step 0. | `README.md`, `design.md`, `bom.csv`, `cut-list.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l2_planning_uplift | pending_measurement | self_checked | Added non-dimensional subsystem interfaces, workpiece categories, and measurement gates only. |
+| codex-r8-wolfram-2026-05-30 | Codex local edit | Round 8 Wolfram authoring handoff and existing L2 packet. | `daxophone-starter.wl`, `wolfram/daxophone-wolfram-model.wl`, `visual-output-register.csv`, `cad/mcp-session-log.md` | reference_only_parametric_model | reference_only | self_checked | No MCP, Wolfram Desktop, Wolfram Cloud, CAD, image, audio, or CAM session was run; source authored by hand with estimate placeholders only. |
 
 ## Authority Notes
 
