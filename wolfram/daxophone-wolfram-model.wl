@@ -106,3 +106,5 @@ daxophoneModel = <|
    "nominalEstimate" -> daxophoneNominalEstimate,
    "explorer" -> daxophoneExplorer
    |>;
+
+daxophoneModel
