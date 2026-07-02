@@ -19,6 +19,9 @@ V5 provenance stub for the daxophone L2 planning packet.
 | codex-r7-l2-uplift-2026-05-30 | Codex local edit | Existing repo packet plus failed QMD Step 0. | `README.md`, `design.md`, `bom.csv`, `cut-list.csv`, `decision-record.md`, `visual-output-register.csv`, `cad/mcp-session-log.md` | l2_planning_uplift | pending_measurement | self_checked | Added non-dimensional subsystem interfaces, workpiece categories, and measurement gates only. |
 | codex-r8-wolfram-2026-05-30 | Codex local edit | Round 8 Wolfram authoring handoff and existing L2 packet. | `daxophone-starter.wl`, `wolfram/daxophone-wolfram-model.wl`, `visual-output-register.csv`, `cad/mcp-session-log.md` | reference_only_parametric_model | reference_only | self_checked | No MCP, Wolfram Desktop, Wolfram Cloud, CAD, image, audio, or CAM session was run; source authored by hand with estimate placeholders only. |
 
+| fable-v5-refresh-2026-07-01 | claude-code (Fable 5) | design.md, decision-record.md (no design table/xlsx exists for this instrument) | bom.csv, cut-list.csv, sourcing.csv, validation.csv | packet_refresh | fabrication | self_checked | V5 refresh pass: added sourcing.csv and validation.csv baseline files; reviewed existing bom.csv/cut-list.csv against design.md — no dimension changes made, all rows remain pending_measurement. Provenance rows added to satisfy V5 fabrication-artifact logging. |
+| fable-v5-refresh-2026-07-01 | claude-code (Fable 5) + OpenSCAD CLI | design.md subsystem gates (no design table/xlsx; all values marked `assumption`) | cad/daxophone.scad | cad_authoring | pending_measurement | self_checked | Non-dimensional tongue/dax-blank bounding envelope (coupon stock, clamp block, dax block, base) authored as bench-planning layout only; tongue outline, dax contact curve, clamp pressure, and pickup placement explicitly out of scope per design.md subsystem gates. OpenSCAD render check: pass (openscad -o STL, exit 0). |
+
 ## Authority Notes
 
 - No fabricated dimensions, DXF coordinates, tongue profiles, fret/contact
@@ -27,3 +30,6 @@ V5 provenance stub for the daxophone L2 planning packet.
 - All future CAD, drawings, templates, pickup wiring, and playable pitch maps
   must trace to measured blanks, reviewed design tables, or explicit prototype
   tests before promotion beyond L2.
+- 2026-07-01: `cad/daxophone.scad` was added as a non-dimensional tongue/dax
+  bounding envelope (bench-planning layout only); it does not create tongue
+  profile, dax contact curve, clamp pressure, or pickup placement authority.

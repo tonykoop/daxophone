@@ -1,0 +1,34 @@
+{
+  "product": "daxophone",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/daxophone.scad",
+      "format": "openscad-source",
+      "sha256": "6decf7ecf6d7e0b4b09d4cf1e4847ab11d99c7db20e90791fa6368a3f54f9063",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Non-dimensional tongue/dax-blank bounding envelope; bench-planning layout only."
+    },
+    {
+      "path": "wolfram/daxophone-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "fafc067ca050494d4240ba4d6b4e7efd1b0c9a931b0640955e96f5d9b282a5b1",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Source-only (not executed); estimate placeholders."
+    },
+    {
+      "path": "daxophone-starter.wl",
+      "format": "wolfram-source",
+      "sha256": "99e5f6eaed1f70db62ce4bffb25dd12dce204614bc4a77cf7eb57f70130b17be",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Thin Wolfram loader; source-only."
+    }
+  ],
+  "notes": "No design table (xlsx) exists for this instrument. OpenSCAD envelope and Wolfram sources are the only current masters; no STEP export. Gate A (Alpha workspace compile) not yet run."
+}

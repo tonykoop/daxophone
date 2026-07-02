@@ -1,0 +1,7 @@
+item,required_spec,search_terms,supplier_candidates,date_checked,unit_price_usd,lead_time,substitution_risk,notes
+Tongue blank stock,TBD (species/grain/outline not released; see design.md tongue blank subsystem),"tonewood blank daxophone dax tongue","tonewood suppliers; luthier hardwood suppliers",TBD,TBD,TBD,High,"Blocked on measured coupon evidence before spec can be released."
+Clamp block hardware,TBD (jaw geometry/pressure pending measurement),"woodworking clamp jaw hardware","hardware suppliers",TBD,TBD,TBD,Medium,"Buzz/fiber-damage test required before spec release (design.md clamp block subsystem)."
+Dax block stock,TBD (face material/contour pending),"hardwood turning blank dax block","hardwood suppliers",TBD,TBD,TBD,Medium,"Contact-response test required before spec release (design.md dax block subsystem)."
+Contact pickup,TBD (pickup type/mount pending),"contact piezo pickup luthier","luthier electronics suppliers",TBD,TBD,TBD,Medium,"Reversible-mount noise test required before spec release (design.md contact pickup subsystem)."
+Output jack + strain relief,TBD (connector/shielding layout pending),"1/4in output jack panel mount instrument","electronics suppliers",TBD,TBD,TBD,Low,"Layout review required (design.md output hardware subsystem)."
+Bow + rosin,TBD (bow weight/hair pending test),"bass bow rosin friction idiophone","bowed-instrument suppliers",TBD,TBD,TBD,Low,"Bowing test is a dependency, not a tuned design input (bom.csv DAX-BOW)."
