@@ -1,0 +1,7 @@
+check_id,area,target,method,tolerance,measured,result,action
+VAL-001,Tongue blank,"real tongue coupon measured and photographed before shaping (design.md Measurement Gates)",coupon measurement + photo log,measurement_required,TBD,TBD,"Reject/reselect blank"
+VAL-002,Clamp stability,"clamp holds tongue without buzz slip or fiber damage",clamp test log per design.md clamp block subsystem,no buzz/slip/damage,TBD,TBD,"Revise clamp jaw/liner"
+VAL-003,Bow response,"tongue behavior separated from pickup/amplifier color",bowing test log,measurement_required,TBD,TBD,"Re-isolate variables and retest"
+VAL-004,Dax contact,"dax-block contact test documents repeatability and expressive range",contact-response notes per design.md dax block subsystem,measurement_required,TBD,TBD,"Revise dax-face material/contour"
+VAL-005,Pickup mount,"pickup mounting records noise, handling sensitivity, and reversibility",reversible pickup mount test,no added structural brace effect,TBD,TBD,"Revise mount approach"
+VAL-006,Safety,"sharp edges, splinters, clamp force, and bowing posture reviewed",edge and handling review per design.md Risks,no defects,TBD,TBD,"Do not proceed to player testing until this passes"

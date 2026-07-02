@@ -2,7 +2,7 @@
 
 # Daxophone
 
-Status: L2 planning packet; not fabrication-ready
+**Status:** L2 V5 build-packet candidate; planning packet, not fabrication-ready
 
 Private V5 planning packet for a daxophone: a bowed wooden tongue clamped in a
 block, excited along its edge, shaped and stopped with a hand-held dax block,
@@ -36,6 +36,12 @@ behavior are all `pending_measurement`.
   `concept_only` or `pending_measurement`.
 - `cad/mcp-session-log.md` - QMD and provenance stub; no MCP/CAD session run.
 - `decision-record.md` - decisions, open questions, and promotion gates.
+- `sourcing.csv`, `validation.csv`, `risks.md`, `drawing-brief.md` - V5
+  baseline packet tables (TBD-marked; no design table exists yet).
+- `cad/daxophone.scad` - non-dimensional tongue/dax-blank bounding envelope;
+  authority `pending_measurement`.
+- `evolution/` - evolution-pipeline Stage 0 intake: master manifest,
+  design-intent, and revision register (Gate A not yet run).
 
 ## Readiness
 
